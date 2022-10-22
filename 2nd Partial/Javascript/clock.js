@@ -15,7 +15,7 @@ function drawFace(ctx, radius) {
     // TODO: (Optional) add a gradient circle
     borderColor = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
     borderColor.addColorStop(0, '#333');
-    borderColor.addColorStop(0.5, 'white');
+    borderColor.addColorStop(0.7, 'white');
     borderColor.addColorStop(1, '#333');
     ctx.strokeStyle = borderColor;
     ctx.lineWidth = radius*0.1;
